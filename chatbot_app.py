@@ -5,9 +5,9 @@ from mistralai import Mistral
 
 
 # Définition de l'API key et du modèle que l'on veut utiliser
-# api_key = "9F8Lnhk8zfkxKxj3EfCyY3j9RzIaVwjB"
-model = "mistral-large-latest"
 api_key = st.secrets["Mistral"]["mistral_api_key"]
+model = "mistral-large-latest"
+
 client = Mistral(api_key=mistral_api_key)
 
 # Définition de la fonction qui génère la réponse du modèle
