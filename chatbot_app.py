@@ -5,10 +5,10 @@ from mistralai import Mistral
 
 
 # Définition de l'API key et du modèle que l'on veut utiliser
-api_key = "9F8Lnhk8zfkxKxj3EfCyY3j9RzIaVwjB"
+# api_key = "9F8Lnhk8zfkxKxj3EfCyY3j9RzIaVwjB"
 model = "mistral-large-latest"
 
-client = Mistral(api_key=api_key)
+client = Mistral(api_key=mistral_key)
 
 # Définition de la fonction qui génère la réponse du modèle
 def generate_response(user_input):
