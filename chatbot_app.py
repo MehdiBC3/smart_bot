@@ -8,7 +8,7 @@ from mistralai import Mistral
 api_key = st.secrets["Mistral"]["mistral_api_key"]
 model = "mistral-large-latest"
 
-client = Mistral(api_key=mistral_api_key)
+client = Mistral(api_key=api_key)
 
 # Définition de la fonction qui génère la réponse du modèle
 def generate_response(user_input):
